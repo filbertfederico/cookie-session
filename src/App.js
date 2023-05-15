@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useCookies } from 'react-cookie';
+import "./App.css"
 
 const App = () => {
    const [name, setName] = useState('');
